@@ -1,0 +1,609 @@
+.nav {
+    background-color: #d2d2d2;
+    width:100%;
+    height: 60px;
+    border: 3px solid #9D2235;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.logo {
+    margin:0 auto;
+    margin-top: -55px;
+    
+}
+a:link {
+    text-decoration: none;
+}
+
+.btnDeleteAction{
+    background: url('../images/trash.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 30px 30px;
+    width: 35px;
+    height:35px;
+    position: relative;
+    top: -29px;
+    background-color:none;
+    border-radius:100px;
+    padding: 0;
+    border: none;
+}
+.btnEditAction{
+    background: url('../images/edit.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 30px 30px;
+    width: 35px;
+    height:35px;
+    position: relative;
+    top: -29px;
+    background-color:none;
+    padding: 0;
+    border: none;
+}
+
+.btnSaveAction{
+    background: url('../images/save.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 30px 30px;
+    width: 35px;
+    height:35px;
+    position: relative;
+    top: -114px;
+    left: 285px;
+    background-color:none;
+    padding: 0;
+    border: none;
+}
+.btnCancelAction{
+    background: url('../images/cancel.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 30px 30px;
+    width: 35px;
+    height:35px;
+    position: relative;
+    top: -114px;
+    left: 285px;;
+    background-color:none;
+    padding: 0;
+    border: none;
+}
+#btnAddAction{
+   background: #9D2235 url(../images/logo_rb.png) no-repeat;
+   background-size: 20px 20px;
+   background-position: 10px;
+   display: block;
+   font-size: 1.2em;
+   color: #fff;
+    padding: 4px 10px 4px 10px;
+    width:120px;
+    border-radius: 5px;
+    
+}
+#btnAddAction:hover{
+   background: #ff214d url(../images/logo_rb.png) no-repeat;
+   background-size: 20px 20px;
+   background-position: 10px;
+   display: block;
+   font-size: 1.2em;
+   color: #fff;
+    padding: 4px 10px 4px 10px;
+    width:120px;
+    border-radius: 5px;
+    
+}
+#btnViewAction{
+   background: #9D2235 url(../images/viewprofile.jpg) no-repeat;
+   background-size: 30px 30px;
+   background-position: 10px;
+   display: block;
+   font-size: 1.1em;
+   color: #fff;
+    padding: 4px 10px 4px 10px ;
+    width:190px;
+    border-radius: 5px;
+    
+}
+#btnViewAction:hover{
+   background: #ff214d  url(../images/viewprofile.jpg) no-repeat;
+   background-size: 30px 30px;
+   background-position: 10px;
+   display: block;
+   font-size: 1.1em;
+   color: #fff;
+    padding: 4px 10px 4px 10px ;
+    width:190px;
+    border-radius: 5px;
+    
+}
+.btnFollowAction{
+   background: #9D2235 url(../images/follow.png) no-repeat;
+   background-size: 20px 20px;
+   background-position: 5px;
+   display: block;
+   font-size: 1.2em;
+   color: #fff;
+    padding: 4px 10px 4px 10px;
+    width:120px;
+    border-radius: 5px;
+}
+.btnUnfollowAction{
+   background: #9D2235 url(../images/following.png) no-repeat;
+   background-size: 20px 20px;
+   background-position: 5px;
+   display: block;
+   font-size: 1.2em;
+   color: #fff;
+    padding: 4px 10px 4px 10px;
+    width:140px;
+    border-radius: 5px;
+}
+.btnUnfollowAction:hover{
+   background: #9D2235 url(../images/unfollow.png) no-repeat;
+   background-size: 20px 20px;
+   background-position: 5px;
+   display: block;
+   font-size: 1.2em;
+   color: #fff;
+    padding: 4px 10px 4px 10px;
+    width:140px;
+    border-radius: 5px;
+}
+.btnUnfollowAction:before{
+   content:'Following';
+}
+.btnUnfollowAction:hover:before{
+   content: attr(data-hover)
+}
+body {
+  color: #666;
+  background-color: #f1f2f2;
+  font: 16px/26px "Raleway", sans-serif; }
+.con1 {
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin-top: 120px;
+    margin-left: 50px;
+    position: absolute;
+}
+.user_img{
+    border-radius: 100px;
+    margin-top:10px;
+    background-color:#666;
+    padding: 5px 5px;
+}
+.profile_img{
+    margin-top: -60px;
+    
+}
+.banner{
+    margin-top: -20px;
+}
+.grey-box h2{
+    float:left;
+    margin-top:-8px;
+    margin-left:10px;
+}
+.label-msg{
+    
+    margin-top: -100px;
+    margin-left: 230px;
+}
+.follow-div{
+    margin-top: -100px;
+    margin-left: 240px;
+}
+
+.grey-box{
+    color:#9D2235;
+    margin-top: -40px;
+    height:13vh;
+    width:25%;
+    padding: 5px 5px;
+    background-color:#d2d2d2 ;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.r_img1,.r_img2,.r_img3{
+    border-radius: 200px;
+    margin-top:10px;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+   /* padding: 5px 5px;*/
+}
+.r_img1:hover,.r_img2:hover,.r_img3:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.post_img{
+    float:left;
+    border-radius: 100px;
+    margin-top:10px;
+    background-color:#666;
+    padding: 10px 10px;
+}
+.event{
+    margin-top:220px;
+    padding: 10px 10px;
+    height:39vh;
+    width:100%;
+    background-color:white ;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color:#9D2235;
+}
+.weather{
+    margin-top:220px;
+    padding: 10px 10px;
+    height:39vh;
+    width:100%;
+    background-color:white ;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color:#9D2235;
+}
+.user-info {
+    color:#9D2235;
+}
+.post-id {
+    float:left;
+    color:#9D2235;
+}
+.message-content {
+    width: 55%;
+    word-break: break-all;
+    color:black;
+    text-align: left;
+    position:relative;
+    right:65px;
+    top:18px;
+    
+}
+.post-msg2 {
+    color:black;
+    margin-left:60px;
+    margin-top: -20px;
+}
+.form-contianer {
+    margin-top: 20px;
+    height:60vh;
+    width:25%;
+    border-radius:200px;
+    padding: 5px 5px;
+    background-color:#d2d2d2 ;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.profile {
+    margin-top: 20px;
+    float:left;
+    height:40vh;
+    width:25%;
+    border-radius:200px;
+    padding: 5px 5px;
+    background-color:#d2d2d2 ;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.who-to-follow {
+    margin-top: -217px;
+    float:right;
+    height:40vh;
+    width:25%;
+    padding: 5px 5px;
+    background-color:#d2d2d2 ;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color:#9D2235;
+}
+.who-to-follow h1 {
+    font-style: oblique;
+}
+.con-box {
+    margin:0 auto;
+}
+.con2 {
+    width: 35%;
+    height: 200px;
+    float: right;
+    margin-top: -450px;
+    margin-left: 200px;
+    color:black;
+}
+
+.container {
+    margin-top: 20px;
+    width: 40%;
+    height: 15vh;
+    border: 2px solid #d2d2d2;
+    margin: 0 auto;
+    padding: 5px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.container2 {
+    margin-top: 20px;
+    width: 40%;
+    height: 20vh;
+    margin: 0 auto;
+    padding: 5px;
+}
+.message-box {
+    margin: 0 auto;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding-bottom: 40px;
+    
+}
+.form_style{
+    margin-top: 10px;
+}
+.timeline {
+    margin-top: -200px;
+    width: 100%;
+    height: 10vh;
+    border: 2px solid #d2d2d2;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+}
+
+textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #9D2235;
+}
+.ev-btn {
+ 
+  margin:0 auto;
+  margin-left: 10px;
+}
+.container button {
+  float:right;    
+  margin-left: 10px;
+}
+
+.pull-right{
+    float:right;
+    color: #9D2235;
+    padding-left: 10px;
+}
+
+.stats {
+  text-align:center;
+  margin-top:25px; 
+  
+}
+.stats li{
+  width:24%; 
+  display:inline-block;
+}
+
+.stats span{
+  font-family:Helvetica;
+  font-weight:bold;
+  font-size:3vw;
+  
+  display:block;
+  line-height:1em;
+}
+
+.stats_2 {
+  text-align:left;
+  margin-top:40px;  
+  margin-left:-45px;
+}
+.stats_2 li{
+  width:13%; 
+  display:inline-block;
+}
+
+.stats_2 span{
+  font-family:Helvetica;
+  font-weight:bold;
+  font-size:2vw;
+  
+  display:block;
+  line-height:1em;
+}
+
+
+
+
+.links {
+  text-align:center;
+  margin-top:25px;  
+  
+}
+.links li{
+  width:30%; 
+  display:inline-block;
+}
+
+.links span{
+  font-family:Helvetica;
+  font-weight:bold;
+  font-size:3vw;
+  
+  display:block;
+  line-height:1em;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-bar li {
+    float: left;
+    border-right:2px solid #bbb;
+}
+
+.menu-bar li:last-child {
+    border-right: none;
+}
+
+.menu-bar li a {
+    display: block;
+    color: #9D2235;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius:50px;
+}
+
+.menu-bar li a:hover:not(.active) {
+    background-color: #FF6656;
+}
+
+.menu-bar .active {
+    background-color: #FF6656;
+}
+
+input[type=text] {
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.search-con{
+    text-align:left;
+}
+
+.register-form{
+    font-size: 16px;
+   left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.regbutton{    
+    height: 50px;
+    width: 200px;
+    background-color:tomato;
+    border-radius: 0px;
+    font-size: 18px;
+    color:white;
+    border: none !important;
+    margin-bottom: 5px;
+}
+.regbutton:hover{    
+    color: white;
+    background-color:#aa422f;
+}
+.regbutton:active{    
+    color: white;
+    background-color:#aa422f;
+}
+.logbutton{    
+    height: 50px;
+    width: 200px;
+    background-color:yellowgreen;
+    border-radius: 0px;
+    font-size: 18px;
+    color:white;
+    border: none !important;
+    margin-bottom: 5px;
+}
+.logbutton:hover{    
+    color: white;
+    background-color:darkolivegreen;
+}
+.logbutton:active{    
+    color: white;
+    background-color:darkolivegreen;
+}
+.register-form label{
+    color: aliceblue;
+    
+}
+.register-form input{
+    margin-bottom: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 0px;
+}
+
+
+
